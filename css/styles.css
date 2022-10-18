@@ -9,10 +9,6 @@
     display: grid;
 }
 
-@media (min-width: 600px) {
-
-}
-
 .header-box{
     grid-row: 1;
     height: 30vh;
@@ -34,6 +30,7 @@
     display: flex;
     align-self: flex-end;
     gap: 120px;
+    list-style:none;
 }
 
 .header-ul-box a{
