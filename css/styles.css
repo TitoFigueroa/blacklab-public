@@ -232,20 +232,26 @@
     .footer-box img{
         display: none;
     }
+
     .form-fieldset-box-own{
         display: flex;
         flex-direction: column ;
         align-items: center;
-        gap: 5px;
+        gap: 3px;
     }
     
     .form-fieldset-box-own input{
         height: 27px;
         width: 250px;
     }
+
+    .form-fieldset-box-own textarea{
+        height: 60px;
+        width: 250px;
+    }
     
     #quest{
-        height: 90px;
+        height: 60px;
         width: 250px;
     }
 }
@@ -401,10 +407,14 @@
         height: 27px;
         width: 250px;
     }
+
+    .form-fieldset-box-own textarea{
+        height: 90px;
+        width: 250px;
+    }
     
     #quest{
         height: 90px;
         width: 250px;
     }
 }
-
