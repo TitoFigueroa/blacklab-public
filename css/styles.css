@@ -255,6 +255,10 @@
         display: none;
     }
 
+    .main-index-mobile img{
+        display: none;
+    }
+
     .body-box{
         size: 100%;
         display: grid;
