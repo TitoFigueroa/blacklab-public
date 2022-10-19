@@ -10,51 +10,81 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <div class="container-fluid" >
-        <div class="row" >
-            <header class="header-box">
-                <nav>
-                    <ul class="header-ul-box">
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="./products.html">Productos</a></li>
-                        <li><a href="./services.html">Servicios</a></li>
-                        <li><a href="./contact.html">Contacto</a></li>
-                        <li><a href="./login.html"ml>Login</a></li>
-                    </ul>
-                </nav>
-            </header>
+    <div class="body-box">
+        <header class="header-box">
+            <div class="container-fluid" >
+                <div class="row" >
+                    <div class="desktop-box">
+                        <nav>
+                            <ul class="header-ul-box">
+                                <li><a href="../index.html">Inicio</a></li>
+                                <li><a href="./products.html">Productos</a></li>
+                                <li><a href="./services.html">Servicios</a></li>
+                                <li><a href="./contact.html">Contacto</a></li>
+                                <li><a href="./login.html">Login</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            <div class="container-fluid" >
+                <div class="row" >
+                    <div class="mobile-box">
+                        <nav>
+                            <div class="navbar">
+                                <div class="container nav-container">
+                                    <input class="checkbox" type="checkbox" name="" id="" />
+                                    <div class="hamburger-lines">
+                                        <span class="line line1"></span>
+                                        <span class="line line2"></span>
+                                        <span class="line line3"></span>
+                                    </div>  
+                                    <div class="logo">
+                                    </div>
+                                    <div class="menu-items">
+                                        <li><a href="../index.html">Inicio</a></li>
+                                        <li><a href="./products.html">Productos</a></li>
+                                        <li><a href="./services.html">Servicios</a></li>
+                                        <li><a href="./contact.html">Contacto</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            <div>
+        </header>
+        <div class="container-fluid" >
+            <div class="row">
+                <main class="main-box">
+                    <div>
+                        <form action="" method="get">
+                            <fieldset class="form-fieldset-box-own">
+                                <legend>Contactanos:</legend>
+                                <label for="fname">Nombre:</label>
+                                <input type="text" id="fname" name="fname" value="">
+                                <label for="lname">Apellido:</label>
+                                <input type="text" id="lname" name="lname" value="">
+                                <label for="quest">Consulta</label>
+                                <input type="text" id="quest" name="quest" value="">
+                                <input type="submit" value="Enviar">
+                            </fieldset>
+                        </form>
+                    </div>
+                </main>
+            </div>
         </div>
-    </div>
-    <div class="container-fluid" >
-        <div class="row">
-            <main class="main-box">
-                <div>
-                    <form action="" method="get">
-                        <fieldset class="form-fieldset-box-own">
-                            <legend>Contactanos:</legend>
-                            <label for="fname">Nombre:</label>
-                            <input type="text" id="fname" name="fname" value="">
-                            <label for="lname">Apellido:</label>
-                            <input type="text" id="lname" name="lname" value="">
-                            <label for="quest">Consulta</label>
-                            <input type="text" id="quest" name="quest" value="">
-                            <input type="submit" value="Enviar">
-                        </fieldset>
-                    </form>
-                </div>
-            </main>
-        </div>
-    </div>
-    <div class="container-fluid" >
-        <div class="row">
-            <footer class="footer-box">
-                <div class="footer-1">
-                    <img src="../assets/img/blacklab-footer-background.png" alt="">
-                </div>
-                <div class="footer-2">
-                    <p>El equipo de BLACKLAB trabaja para brindarles los mejores productos y servicios posibilitando mejoras de alta performance para su vehiculo con la mejor calidad del mercado.</p>
-                </div>
-            </footer>
+        <div class="container-fluid" >
+            <div class="row">
+                <footer class="footer-box">
+                    <div class="footer-1">
+                        <img src="../assets/img/blacklab-footer-background.png" alt="">
+                    </div>
+                    <div class="footer-2">
+                        <p>El equipo de BLACKLAB trabaja para brindarles los mejores productos y servicios posibilitando mejoras de alta performance para su vehiculo con la mejor calidad del mercado.</p>
+                    </div>
+                </footer>
+            </div>
         </div>
     </div>
     <!-- JavaScript Bundle with Popper -->
