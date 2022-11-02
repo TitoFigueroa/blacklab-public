@@ -1,0 +1,59 @@
+@media screen and (min-width: 992px) {
+    .mobile-box{
+        display: none;
+    }
+
+    .main-index-mobile img{
+        display: none;
+    }
+
+    .header-box .desktop-box{
+        grid-row: 1;
+        height: 30vh;
+        width: 100%;
+        background-color: black;
+        background-image: url(../assets/img/blacklab-header-background.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 57%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-box nav{
+        display: flex;
+    }
+    
+    .header-ul-box{
+        width: 1200px;
+        margin: 6px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        align-self: flex-end;
+        list-style:none;
+        gap: 30px;
+    }
+    
+    .header-ul-box a{
+        height: 45px;
+        width: 102px;
+        text-decoration: none;
+        font-size: 21px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #727271;
+        border-radius: 15%;
+        border-style: solid;
+        border-color: grey;
+    }
+    
+    .header-ul-box a:hover{
+        background-color: #4D4A48;
+        text-shadow: 3px 3px 6px black;
+        border-style: groove;
+    }
+
+}

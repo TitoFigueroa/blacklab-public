@@ -1,0 +1,45 @@
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+
+    .desktop-box *{
+        display: none;
+    }
+
+    .footer-box{
+        grid-row: 3;
+        height: 180px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        border-color: black;
+    }
+    
+    .footer-box img{
+        display: none;
+    }
+
+    .form-fieldset-box-own{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        gap: 3px;
+    }
+    
+    .form-fieldset-box-own input{
+        height: 27px;
+        width: 250px;
+    }
+
+    .form-fieldset-box-own textarea{
+        height: 60px;
+        width: 250px;
+    }
+    
+    #quest{
+        height: 60px;
+        width: 250px;
+    }
+
+}
