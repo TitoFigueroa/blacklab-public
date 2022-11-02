@@ -1,0 +1,9 @@
+.grid {
+    display: grid;
+}
+
+.body-box{
+    size: 100%;
+    @extend .grid;
+}
+

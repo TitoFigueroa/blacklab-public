@@ -1,0 +1,25 @@
+{
+  "name": "blacklab-public",
+  "version": "1.0.0",
+  "description": "blacklab public website code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass -o css scss/style.scss",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitoFigueroa/blacklab-public.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TitoFigueroa/blacklab-public/issues"
+  },
+  "homepage": "https://github.com/TitoFigueroa/blacklab-public#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
